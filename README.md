@@ -5,7 +5,7 @@ Mask24 is an application that allows managing masks easily
 2.0
 
 # Installation
-Xcode 6.0 or later
+Xcode 12.0 or later
 
 iOS 8.0 or later
 
