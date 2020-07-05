@@ -7,27 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2345CE2C24A4F48B0081D204 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345CE2B24A4F48B0081D204 /* TableViewController.swift */; };
+		2345CE2E24A4F9C40081D204 /* MaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345CE2D24A4F9C40081D204 /* MaskCell.swift */; };
+		2345CE3524A507C00081D204 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2345CE3224A507C00081D204 /* normal.png */; };
+		2345CE3724A5080C0081D204 /* dust.png in Resources */ = {isa = PBXBuildFile; fileRef = 2345CE3624A5080C0081D204 /* dust.png */; };
+		239392E924AF45FE003CC1B0 /* ScreeningCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239392E824AF45FE003CC1B0 /* ScreeningCenter.swift */; };
+		239392EB24AF4832003CC1B0 /* CenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239392EA24AF4832003CC1B0 /* CenterTableViewController.swift */; };
+		239392ED24AF6D7E003CC1B0 /* CenterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239392EC24AF6D7D003CC1B0 /* CenterDetailViewController.swift */; };
+		23BBDB3624A0F9830046BBD3 /* findUserId.php in Resources */ = {isa = PBXBuildFile; fileRef = 23BBDB3524A0F9830046BBD3 /* findUserId.php */; };
+		23BBDB3824A0F9970046BBD3 /* insertUser.php in Resources */ = {isa = PBXBuildFile; fileRef = 23BBDB3724A0F9970046BBD3 /* insertUser.php */; };
+		23BBDB3C24A0F9BC0046BBD3 /* loginUser.php in Resources */ = {isa = PBXBuildFile; fileRef = 23BBDB3B24A0F9BC0046BBD3 /* loginUser.php */; };
 		23F9AAD42499C35F00DF480C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAD32499C35F00DF480C /* AppDelegate.swift */; };
 		23F9AAD62499C35F00DF480C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAD52499C35F00DF480C /* SceneDelegate.swift */; };
-		23F9AAD82499C35F00DF480C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAD72499C35F00DF480C /* FirstViewController.swift */; };
-		23F9AADA2499C35F00DF480C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAD92499C35F00DF480C /* SecondViewController.swift */; };
 		23F9AADD2499C35F00DF480C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F9AADB2499C35F00DF480C /* Main.storyboard */; };
 		23F9AAE02499C35F00DF480C /* mask_24.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AADE2499C35F00DF480C /* mask_24.xcdatamodeld */; };
 		23F9AAE22499C36200DF480C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F9AAE12499C36200DF480C /* Assets.xcassets */; };
 		23F9AAE52499C36200DF480C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F9AAE32499C36200DF480C /* LaunchScreen.storyboard */; };
+		23F9AAF42499C46800DF480C /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAEC2499C46700DF480C /* RegisterUserViewController.swift */; };
+		23F9AAF62499C46800DF480C /* maskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAEF2499C46800DF480C /* maskDetailViewController.swift */; };
+		23F9AAF72499C46800DF480C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAF02499C46800DF480C /* LoginViewController.swift */; };
+		23F9AAF82499C46800DF480C /* findUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAF12499C46800DF480C /* findUserViewController.swift */; };
+		23F9AAFA2499C46800DF480C /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAF32499C46800DF480C /* LogoutViewController.swift */; };
+		23F9AAFC2499C47400DF480C /* addMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9AAFB2499C47400DF480C /* addMaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2345CE2B24A4F48B0081D204 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2345CE2D24A4F9C40081D204 /* MaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskCell.swift; sourceTree = "<group>"; };
+		2345CE3224A507C00081D204 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		2345CE3624A5080C0081D204 /* dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust.png; sourceTree = "<group>"; };
+		239392E824AF45FE003CC1B0 /* ScreeningCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningCenter.swift; sourceTree = "<group>"; };
+		239392EA24AF4832003CC1B0 /* CenterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterTableViewController.swift; sourceTree = "<group>"; };
+		239392EC24AF6D7D003CC1B0 /* CenterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailViewController.swift; sourceTree = "<group>"; };
+		23BBDB3524A0F9830046BBD3 /* findUserId.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = findUserId.php; path = ../../../../../../../../Applications/MAMP/htdocs/login/findUserId.php; sourceTree = "<group>"; };
+		23BBDB3724A0F9970046BBD3 /* insertUser.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = insertUser.php; path = ../../../../../../../../Applications/MAMP/htdocs/login/insertUser.php; sourceTree = "<group>"; };
+		23BBDB3B24A0F9BC0046BBD3 /* loginUser.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = loginUser.php; path = ../../../../../../../../Applications/MAMP/htdocs/login/loginUser.php; sourceTree = "<group>"; };
 		23F9AAD02499C35F00DF480C /* mask_24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mask_24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F9AAD32499C35F00DF480C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F9AAD52499C35F00DF480C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23F9AAD72499C35F00DF480C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		23F9AAD92499C35F00DF480C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		23F9AADC2499C35F00DF480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23F9AADF2499C35F00DF480C /* mask_24.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mask_24.xcdatamodel; sourceTree = "<group>"; };
 		23F9AAE12499C36200DF480C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23F9AAE42499C36200DF480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23F9AAE62499C36200DF480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F9AAEC2499C46700DF480C /* RegisterUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		23F9AAEF2499C46800DF480C /* maskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maskDetailViewController.swift; sourceTree = "<group>"; };
+		23F9AAF02499C46800DF480C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		23F9AAF12499C46800DF480C /* findUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findUserViewController.swift; sourceTree = "<group>"; };
+		23F9AAF32499C46800DF480C /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		23F9AAFB2499C47400DF480C /* addMaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2345CE2F24A505790081D204 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2345CE3624A5080C0081D204 /* dust.png */,
+				2345CE3224A507C00081D204 /* normal.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		23F9AAC72499C35F00DF480C = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +97,23 @@
 		23F9AAD22499C35F00DF480C /* mask_24 */ = {
 			isa = PBXGroup;
 			children = (
+				2345CE2F24A505790081D204 /* resources */,
+				23BBDB3B24A0F9BC0046BBD3 /* loginUser.php */,
+				23BBDB3724A0F9970046BBD3 /* insertUser.php */,
+				23BBDB3524A0F9830046BBD3 /* findUserId.php */,
 				23F9AAD32499C35F00DF480C /* AppDelegate.swift */,
+				23F9AAF02499C46800DF480C /* LoginViewController.swift */,
+				23F9AAEC2499C46700DF480C /* RegisterUserViewController.swift */,
+				23F9AAF12499C46800DF480C /* findUserViewController.swift */,
+				23F9AAF32499C46800DF480C /* LogoutViewController.swift */,
+				2345CE2D24A4F9C40081D204 /* MaskCell.swift */,
+				2345CE2B24A4F48B0081D204 /* TableViewController.swift */,
+				23F9AAFB2499C47400DF480C /* addMaskViewController.swift */,
+				23F9AAEF2499C46800DF480C /* maskDetailViewController.swift */,
+				239392E824AF45FE003CC1B0 /* ScreeningCenter.swift */,
+				239392EA24AF4832003CC1B0 /* CenterTableViewController.swift */,
+				239392EC24AF6D7D003CC1B0 /* CenterDetailViewController.swift */,
 				23F9AAD52499C35F00DF480C /* SceneDelegate.swift */,
-				23F9AAD72499C35F00DF480C /* FirstViewController.swift */,
-				23F9AAD92499C35F00DF480C /* SecondViewController.swift */,
 				23F9AADB2499C35F00DF480C /* Main.storyboard */,
 				23F9AAE12499C36200DF480C /* Assets.xcassets */,
 				23F9AAE32499C36200DF480C /* LaunchScreen.storyboard */,
@@ -131,7 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2345CE3524A507C00081D204 /* normal.png in Resources */,
 				23F9AAE52499C36200DF480C /* LaunchScreen.storyboard in Resources */,
+				23BBDB3C24A0F9BC0046BBD3 /* loginUser.php in Resources */,
+				2345CE3724A5080C0081D204 /* dust.png in Resources */,
+				23BBDB3624A0F9830046BBD3 /* findUserId.php in Resources */,
+				23BBDB3824A0F9970046BBD3 /* insertUser.php in Resources */,
 				23F9AAE22499C36200DF480C /* Assets.xcassets in Resources */,
 				23F9AADD2499C35F00DF480C /* Main.storyboard in Resources */,
 			);
@@ -144,11 +199,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F9AADA2499C35F00DF480C /* SecondViewController.swift in Sources */,
-				23F9AAD82499C35F00DF480C /* FirstViewController.swift in Sources */,
+				23F9AAF72499C46800DF480C /* LoginViewController.swift in Sources */,
 				23F9AAD42499C35F00DF480C /* AppDelegate.swift in Sources */,
 				23F9AAD62499C35F00DF480C /* SceneDelegate.swift in Sources */,
+				23F9AAF42499C46800DF480C /* RegisterUserViewController.swift in Sources */,
 				23F9AAE02499C35F00DF480C /* mask_24.xcdatamodeld in Sources */,
+				239392EB24AF4832003CC1B0 /* CenterTableViewController.swift in Sources */,
+				2345CE2C24A4F48B0081D204 /* TableViewController.swift in Sources */,
+				23F9AAF82499C46800DF480C /* findUserViewController.swift in Sources */,
+				239392ED24AF6D7E003CC1B0 /* CenterDetailViewController.swift in Sources */,
+				23F9AAFA2499C46800DF480C /* LogoutViewController.swift in Sources */,
+				2345CE2E24A4F9C40081D204 /* MaskCell.swift in Sources */,
+				23F9AAFC2499C47400DF480C /* addMaskViewController.swift in Sources */,
+				23F9AAF62499C46800DF480C /* maskDetailViewController.swift in Sources */,
+				239392E924AF45FE003CC1B0 /* ScreeningCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

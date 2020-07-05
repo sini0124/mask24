@@ -9,7 +9,12 @@
 import UIKit
 
 class MaskCell: UITableViewCell {
-
+    
+    @IBOutlet var imgMask: UIImageView!
+    @IBOutlet var maskName: UILabel!
+    @IBOutlet var maskType: UILabel!
+    @IBOutlet var maskDate: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

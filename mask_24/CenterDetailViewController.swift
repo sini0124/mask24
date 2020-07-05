@@ -7,24 +7,35 @@
 //
 
 import UIKit
+import MapKit
+
 
 class CenterDetailViewController: UIViewController {
-
+    
+    @IBOutlet var map: MKMapView!
+    // Table View에서 사용자가 선택한 대학의 한 Cell 인덱스를 받아옴
+    var selectedIndex: Int? = nil
+    // Table View에서 선택한 대학 객체를 전달받기 위함
+    var center: ScreeningCenter? = nil
+    var centerAnnotation: ScreeningCenter? = nil
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
-    */
-
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toCenterView" {
+            if let destVC = segue.destination as? CenterTableViewController {
+                destVC.mainVC = self
+            }
+        }
+    }
 }
+

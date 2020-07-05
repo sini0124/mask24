@@ -1,13 +1,16 @@
-//
-//  ScreeningCenter.swift
-//  mask_24
-//
-//  Created by 시니 on 2020/07/03.
-//  Copyright © 2020 Data Science Dept. All rights reserved.
-//
-
 import UIKit
+import CoreLocation
+import MapKit
 
-class ScreeningCenter: NSObject {
 
+class ScreeningCenter: NSObject, MKAnnotation {
+    var title: String?
+    var coordinate: CLLocationCoordinate2D
+    
+    init (title: String, latitude: Double, longitude: Double) {
+        self.title = title
+        self.coordinate = CLLocationCoordinate2D()
+        self.coordinate.latitude = latitude
+        self.coordinate.longitude = longitude
+    }
 }
